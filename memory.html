@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="memory.css">
+</head>
+<body>
+<div id="box">
+    <div class="title">Matching Planets</div>
+    <div class="button" id="start_button">start the game</div> 
+    <div id="timer">
+        <div class="time">
+            <span class="minute">00</span>
+            <span>:</span>
+            <span class="second">00</span>
+         </div>
+    </div>
+    <!-- <button onclick="restart">Start</button> -->
+
+
+    <ol id="list" >
+        <div class="gamebox" onclick="toggleCard()">
+            <div class="hover">
+                <div class="card front"><img src="planets.jpg" alt=""></div>
+                <div class="card back"><img src="Mars.jpg" alt=""></div> 
+            </div>
+            <div class="hover">
+                <div class="card front"><img src="planets.jpg" alt=""></div>
+                <div class="card back"><img src="Mercury.jpg" alt=""></div> 
+            </div>
+            <div class="hover">
+                <div class="card front"><img src="planets.jpg" alt=""></div>
+                <div class="card back"><img src="Neptune.jpg" alt=""></div> 
+            </div>
+            <div class="hover">
+                <div class="card front"><img src="planets.jpg" alt=""></div>
+                <div class="card back"><img src="Mercury.jpg" alt=""></div> 
+            </div>
+            <div class="hover">
+                <div class="card front"><img src="planets.jpg" alt=""></div>
+                <div class="card back"><img src="Mercury.jpg" alt=""></div> 
+            </div>
+            <div class="hover">
+                <div class="card front"><img src="planets.jpg" alt=""></div>
+                <div class="card back"><img src="Mercury.jpg" alt=""></div> 
+            </div>
+            <div class="hover">
+                <div class="card front"><img src="planets.jpg" alt=""></div>
+                <div class="card back"><img src="Mercury.jpg" alt=""></div> 
+            </div>
+            <div class="hover">
+                <div class="card front"><img src="planets.jpg" alt=""></div>
+                <div class="card back"><img src="Mercury.jpg" alt=""></div> 
+            </div>
+            <div class="hover">
+                <div class="card front"><img src="planets.jpg" alt=""></div>
+                <div class="card back"><img src="Mercury.jpg" alt=""></div> 
+            </div>
+            <div class="hover">
+                <div class="card front"><img src="planets.jpg" alt=""></div>
+                <div class="card back"><img src="Mercury.jpg" alt=""></div> 
+            </div>
+            <div class="hover">
+                <div class="card front"><img src="planets.jpg" alt=""></div>
+                <div class="card back"><img src="Mercury.jpg" alt=""></div> 
+            </div>
+            <div class="hover">
+                <div class="card front"><img src="planets.jpg" alt=""></div>
+                <div class="card back"><img src="Mercury.jpg" alt=""></div> 
+            </div>
+            <div class="hover">
+                <div class="card front"><img src="planets.jpg" alt=""></div>
+                <div class="card back"><img src="Mercury.jpg" alt=""></div> 
+            </div>
+            <div class="hover">
+                <div class="card front"><img src="planets.jpg" alt=""></div>
+                <div class="card back"><img src="Mercury.jpg" alt=""></div> 
+            </div>
+            <div class="hover">
+                <div class="card front"><img src="planets.jpg" alt=""></div>
+                <div class="card back"><img src="Mercury.jpg" alt=""></div> 
+            </div>
+            <div class="hover">
+                <div class="card front"><img src="planets.jpg" alt=""></div>
+                <div class="card back"><img src="Mercury.jpg" alt=""></div> 
+            </div></div></ol>
+   
+    <script src="main.js"></script>
+<script>
+    document.getElementById('start_button').addEventListener('click', ()=>{
+        document.getElementById('timer').innerText='started';
+    })
+    // console.log(document.getElementById('start_button'))
+</script>
+</body>
+</html>
