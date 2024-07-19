@@ -9,7 +9,7 @@ var images = [
     "Neptune.jpg",
   ];
 
-var container = document.getElementById("container");
+var container = document.getElementById("gamebox");
 
 var images = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight'];
 var fullShuffledImages = shuffle([...images, ...images]);
