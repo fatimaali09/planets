@@ -10,15 +10,13 @@ var images = [
   ];
 
 var container = document.getElementById("gamebox");
-
-var images = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight'];
 var fullShuffledImages = shuffle([...images, ...images]);
 
 let my_cards = '';
 for (var i = 0; i < fullShuffledImages.length; i++) {
     my_cards += <div class="card" data-id=" + fullShuffledImages[i] + `">
-        <div class="front-side both-side">
-          <img class="front-image"
+        <div class="front both">
+          <img class="front"
             src="./images/` + fullShuffledImages[i] + `.png"
             alt=""
           />
